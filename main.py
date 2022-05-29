@@ -12,7 +12,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 
-s = Service('C:/Users/kfaus/.wdm/drivers/chromedriver/win32/102.0.5005.61/chromedriver.exe')
+s = Service('C:/Users/username/.wdm/drivers/chromedriver/win32/102.0.5005.61/chromedriver.exe')
 driver = webdriver.Chrome(service= s, options=chrome_options)
 page_url = "https://witcher.fandom.com/wiki/Category:Characters_in_the_stories"
 driver.get(page_url)
