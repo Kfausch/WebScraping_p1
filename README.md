@@ -2,6 +2,8 @@
 
 This project is an example of how to use selenium to pull data from a website. I recommend commenting out the Chrome Options if you don't want Chrome to stay open.
 
+Make sure to import/install Pandas, Matplotlib, Selenium, and Webdriver-Manager
+
 Dealing with driver compatibility can be tricky. Make sure the driver you are referencing and selenium are both up to date.
 
 The specific example here is going to a Witcher Wiki site to see if we can pull all the character names, categorize them by the book they showed up in,
